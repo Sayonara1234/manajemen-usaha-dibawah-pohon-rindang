@@ -174,7 +174,7 @@ app.use((err, req, res, next) => {
 
 app.use("/karyawan", employeeRoutes);
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
   console.log(`Server berjalan di port ${PORT}`);
 });
